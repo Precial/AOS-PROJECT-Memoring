@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">메모</string>
+    <string name="dialog_content1">1번화면 소개</string>
+    <string name="dialog_content2">2번화면 소개</string>
+    <string name="dialog_content3">3번화면 소개</string>
+    <string name="query_id">SELECT * from memo_table ORDER BY id ASC</string>
+</resources>

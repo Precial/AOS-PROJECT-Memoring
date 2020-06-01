@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+    android:background="@color/blue2"
+
+
+
+
+    >
+<!--    <Button
+        android:id="@+id/listStar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/star"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+    </Button>-->
+    <TextView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/listTextView"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="30dp"
+
+        android:textColor="#000000"
+
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+
+
+
+
+        />
+
+</LinearLayout>

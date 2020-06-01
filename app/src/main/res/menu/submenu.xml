@@ -1,0 +1,18 @@
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_option"
+    >
+
+
+ <!--   <item android:id="@+id/action_fileSend"
+        android:title="파일로 저장하기"
+        app:showAsAction="never" />-->
+    <item android:id="@+id/action_share"
+        android:title="내용 공유"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/action_shareFile"
+        android:title="파일로 공유하기"
+        app:showAsAction="withText"/>
+
+</menu>

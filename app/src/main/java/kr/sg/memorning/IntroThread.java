@@ -1,0 +1,54 @@
+package kr.sg.memorning;
+
+import android.content.res.Resources;
+import android.os.Handler;
+import android.os.Message;
+
+public class IntroThread extends Thread {
+
+    private Handler handler;
+
+
+    public IntroThread(Handler handler) {
+        this.handler = handler;
+    }
+
+    @Override
+    public void run(){
+
+        Message msg = new Message();
+
+        try {
+              Thread.sleep(300);
+              msg.what = 1;
+              handler.sendEmptyMessage(msg.what);
+
+              Thread.sleep(300);
+              msg.what = 2;
+              handler.sendEmptyMessage(msg.what);
+
+              Thread.sleep(300);
+              msg.what = 3;
+              handler.sendEmptyMessage(msg.what);
+
+              Thread.sleep(300);
+              msg.what = 4;
+              handler.sendEmptyMessage(msg.what);
+
+              Thread.sleep(300);
+              msg.what = 5;
+              handler.sendEmptyMessage(msg.what);
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+
+    }
+
+
+}
+
+
